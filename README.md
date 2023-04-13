@@ -18,5 +18,17 @@ Install diffusers:
 ```python
 pip install --upgrade diffusers[torch]
 ```
+
+接下来你就可以运行
+```node.js
+npm install -s
+```
+```node.js
+npm run dev
+```
+```python
+python gradio_demo_app.py
+```
+
 在优化之后你可能会遇到一些网络问题，但是在正常网络环境下均可解决
 ![img.png](img.png)
