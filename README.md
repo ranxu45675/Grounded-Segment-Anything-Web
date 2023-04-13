@@ -1,29 +1,22 @@
-# groundedapp
+这个项目基于<a href="https://github.com/IDEA-Research/Grounded-Segment-Anything">Grounded-Segment-Anything<a/>做了webui界面，解决了一些网络问题
+与原项目gradio_app.py所得到的结果相同，但是设计了ui界面
+为了运行这个项目，你需要进行如下步骤
 
-This template should help get you started developing with Vue 3 in Vite.
-
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
+Install requirements package:
+```python
+pip install -r requirements.txt
 ```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
+Install Segment Anything:
+```python
+python -m pip install -e segment_anything
 ```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
+Install Grounding DINO:
+```python
+python -m pip install -e GroundingDINO
 ```
+Install diffusers:
+```python
+pip install --upgrade diffusers[torch]
+```
+在优化之后你可能会遇到一些网络问题，但是在正常网络环境下均可解决
+![img.png](img.png)
