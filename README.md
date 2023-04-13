@@ -1,4 +1,4 @@
-这个项目基于<a href="https://github.com/IDEA-Research/Grounded-Segment-Anything">Grounded-Segment-Anything<a/>做了webui界面，解决了一些网络问题
+这个项目基于<a href="https://github.com/facebookresearch/segment-anything">Segment-Anything<a/>做了webui界面，解决了一些网络问题
 与原项目gradio_app.py所得到的结果相同，但是设计了ui界面
 为了运行这个项目，你需要进行如下步骤
 
