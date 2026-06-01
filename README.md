@@ -16,7 +16,7 @@ Install diffusers:
 pip install --upgrade diffusers[torch]
 ```
 
-接下来你就可以运行
+
 ```node.js
 npm install -s
 ```
